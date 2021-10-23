@@ -1,0 +1,45 @@
+.container{
+    text-align: center;
+    margin: auto;
+    width:70%;
+}
+body{
+    background-color:#393E46 ;
+
+}
+.img{
+    width: 180px;
+    padding: 94px;
+
+}
+h1{
+    font-family: 'Lobster', cursive;
+    font-size: 95px;
+    color: #4ECCA3;
+    margin: 50px 0px;
+    text-shadow: 5px #000;
+
+}
+p{
+    color: #4ECCA3;
+    font-size: 50px;
+    font-family: 'Indie Flower', cursive;;
+}
+.Dice{
+    text-align: center;
+    display: inline-block;
+}
+@media only screen and (max-width:500px){
+
+    h1{
+        text-align: center;
+        font-size: 65px;
+    }
+    p{
+        text-align: center;
+    }
+    .img{
+        text-align: center;
+    }
+}
+
